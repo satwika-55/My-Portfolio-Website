@@ -18,7 +18,7 @@ body{
     background-attachment: scroll;
 }
 nav{
-    width: 100%;
+    width: 100%; 
     height: 10vh;
     position: sticky;
     background-image: none;
@@ -154,7 +154,7 @@ section{
     color: white;
 }
 .content h1 span{
-    color: rgb(70, 179, 119);
+    color: white;
     text-shadow: 0  0 400px black;
 }
 .content .typewriter{
@@ -172,7 +172,7 @@ section{
     margin: 10px 0;
 }
 .hellocontent{
-    color: white;
+    color: black;
     font-size: 100px;
 }
 .social-links i{
@@ -261,4 +261,111 @@ section{
     .main-container button{
         margin-top: 15px;
     }
+}
+#about {
+    height: 100vh; 
+    background-image: url(https://t3.ftcdn.net/jpg/09/26/81/30/360_F_926813028_CSHWtgDIoMk1EkAXjse9ia09IhMYEWVm.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.about-container {
+    /* background-color: #0c0d0c; */
+    background-image: url(https://wallpapercave.com/wp/HBe3nHJ.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    /* width: 1500px;
+    max-width: 2000px; Limit max width */
+    width : 1600px;
+    height: 80vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 20px; */
+    /* border-radius: 10px; Optional: Rounded corners */
+    box-shadow: 150px rgba(19, 136, 56, 0.5); /* Optional: Shadow for better visibility */
+}
+
+.about-me {
+    color: #327b77;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 4px; /* Adds space below the heading */
+    margin-left:800px;
+}
+
+.about-content {
+    color: #077b32;
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 80%; /* Ensures it doesn't stretch too much */
+    margin-left : 900px;
+    margin-bottom: 20px;
+    font-size:1.7rem;
+    font-weight: 400;
+}
+
+.about-box{
+    background-color: rgb(56, 172, 127);
+    border: white;
+    margin-left: 850px;
+    height: 550px;
+    width : 630px;
+    /* margin-bottom:900px; */
+    /* padding-top: 100px; */
+    border-radius: 50px;
+}
+
+.about-box {
+    width: 700px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.about-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    border: none;
+    background: rgb(62, 148, 118);
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover {
+    background: #197d55;
+}
+.a-content {
+    display: none;
+}
+.active {
+    display: block;
+}
+.about-education{
+    font-size: 3rem;
+    margin-bottom: 34px;
+    margin-top: 43px;
+    color: #68a17d;
+}
+.about-studies{
+    font-size:2rem;
+    margin-bottom: 5px;
+    color:#56ae76
+}
+.about-institutions{
+    margin-bottom: 26px;
+    /* color :#19783c */
 }

@@ -12,7 +12,7 @@ const texts = [
     "Competitive Programmer",
     "5 star Coder on Codechef",
     "Pupil on Codeforces",
-    "Knight(2000+) on Leetcode"
+    "Knight(2000+) Leetcode"
 ]
 let speed  = 30;
 const textElements = document.querySelector(".typewriter-text");
@@ -28,6 +28,12 @@ function typeWriter(){
         setTimeout(eraseText, 1000)
     }
 }
+
+function showContent(id) {
+    document.querySelectorAll('.a-content').forEach(el => el.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+}
+
 function eraseText(){
     if(textElements.innerHTML.length > 0){
         textElements.innerHTML = textElements.innerHTML.slice(0,-1);
@@ -40,3 +46,4 @@ function eraseText(){
     }
 }
 window.onload = typeWriter
+
