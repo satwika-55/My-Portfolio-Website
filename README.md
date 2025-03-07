@@ -3,7 +3,7 @@
 Welcome to my **personal portfolio website**! This project showcases my skills, projects, and experience in web development.  
 
 ## 🌟 Live Demo  
-🔗 **[Visit My Portfolio](https://satiwka-55.github.io/MyPortfolioWebsite/)**  
+🔗 **[Visit My Portfolio](https://satwika-55.github.io/My-Portfolio-Website/)**  
 
 ## 📌 Features  
 - 🎨 **Modern & Responsive UI**  
