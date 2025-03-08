@@ -355,22 +355,54 @@ button:hover {
 .active {
     display: block;
 }
+.abt-year{
+  margin-right:373px;
+}
+.abt-year1{
+  margin-right:389px;
+}
 .about-education{
     font-size: 3rem;
-    margin-bottom: 34px;
-    margin-top: 43px;
+    /* margin-bottom: 14px; */
+    /* margin-top: 20px; */
     color: #68a17d;
 }
-.about-studies{
+.about-studies1{
     font-size:2rem;
     margin-bottom: 5px;
-    color:#56ae76
+    color:#56ae76;
+    margin-right:540px;
+    margin-top:20px;
 }
-.about-institutions{
-    margin-bottom: 26px;
+.about-studies2{
+  font-size:2rem;
+  margin-bottom: 5px;
+  color:#56ae76;
+  margin-right:520px;
+  margin-top:20px;
+}
+.about-studies3{
+  font-size:2rem;
+  margin-bottom: 5px;
+  color:#56ae76;
+  margin-right:580px;
+  margin-top:20px;
+}
+.about-institutions1{
+    margin-bottom: 56px;
     color :white;
+    margin-right:427px;
 }
-
+.about-institutions2{
+  margin-bottom: 56px;
+  color :white;
+  margin-right:468px;
+}
+.about-institutions3{
+  margin-bottom: 56px;
+  color :white;
+  margin-right:277px;
+}
 
 /* CONTACT FORM CSS START HERE  */
 
@@ -786,26 +818,38 @@ button:hover {
   /* background-size: cover;
   background-position: center;
   background-attachment: scroll; */ 
-
 }
 .services-sub-title{
-  color:#68aea0;
+  margin-top:47px;
+}
+.services-p{
+  margin-left:412px;
+  color: #68aea0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top:19px;
+}
+.services-sub-title{
+  color:greenyellow;
   margin-left: 850px;
   font-size: 3rem;
 }
 .work-list{
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  grid-gap: 40px;
+  display: flex;
+  justify-content: space-around;
+  gap:80px;
   margin-top:50px ;
 }
 .work{
   border-radius: 10px;
+  height:550px;
+  width :300px;
   position: relative;
   overflow: hidden;
 }
 .work img{
-  width: 100%;
+  height:550px;
+  width: 300px;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
@@ -836,7 +880,7 @@ layer p {
   margin-bottom:60px;
 }
 .layer a{
-  margin-top: 2opx;
+  margin-top: 20px;
   color:#68aea0;
   text-decoration: none;
   font-size: 18px;
