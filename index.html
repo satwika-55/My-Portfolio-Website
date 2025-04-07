@@ -1,480 +1,197 @@
-<!-- jai mahakaal -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Soatweeka Portfolio</title>
-    <style>
-        /* Add smooth scrolling to the page */
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Chitra Sathvika | Personal Portfolio </title>
+  </head>
+  <body>
     <nav>
-        <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
-                Chitra <span>Sathvika</span>
-            </div>
-            <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
-            </div>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">S</span> Sathvika </a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
         </div>
-        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
-    </div>
-    <div class="dropdown">
-        <div class="links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#services">Service</a>
-            <a href="#contact">Contact</a>
-            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
-        </div>
-    </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
     </nav>
-
-    <section id="home">
-        <div class="main-container">
-            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
-                <img src="#" alt="">
-            </div>
-            <div class="content">
-                <h1 class="hellocontent" color="black" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hello I am <span>Sathvika</span></h1>
-                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
-                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
-                <div class="social-links">
-                    <a href="https://github.com/satwika-55" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.linkedin.com/in/satwika555/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
-                </div>
-                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
-                    <button color="black">Hire me</button>
-                </div>
-            </div>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/header.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Sathvika<br />FullStack Dev<br />Competitive Programmer</h1>
         </div>
+        <p class="section__description">
+          I'm a dedicated Computer science ethusiast with a strong Passion for coding. 
+          Overtime, I have developed a rating of 1950(Knight) on leetcode, 
+          Pupil(1364) on Codeforces and 
+          3 star on CodeChef.
+          I am also a web developer with a keen interest in Fullstack development.
+        </p>
+        <div class="header__btn">
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
+        <img src="assets/about.jpg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Bit About Me</h2>
+        <p class="section__description">
+          After finishing my primary education from Little woods school,Andhra Pradesh,
+           I joined in VIT-AP university in 2023. I started coding to escape academics and 
+           little did I know that I would make a career in it. As a highly motivated induvidual,I have honed my skills in various aspects like WebDev, ML and Data Science, 
+           apart from being the best competitive Programmer of my college.
+        </p>
+        <div class="about__btn">
+          <button class="btn">Download CV</button>
+        </div>
+      </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="about-container">
-            <h2 class = "about-me">About Me</h2>
-            <p class="about-content">A cosmic being accidentally living on this Earth</p>
-            <div class = "about-box">
-                <div class="about-buttons">
-                    <button onclick="showContent('education')">Education</button>
-                    <button onclick="showContent('college')">Know Satwika</button>
-                </div>
-                <div id="education" class="a-content active">
-                    <h2 class = "about-education">Education</h2>
-                    <h4 class = "about-studies1">Schooling</h4>
-                    <div>
-                        <span class="about-institutions1">Little Woods School,Kakinada </span>
-                        <span class="abt-year">(2009-2021)</span>
-                        <span class="abt-grade">10th Percentage : 94.7%</span>
-                    </div>
-                    <h4 class = "about-studies2">Intermediate</h4>
-                    <div>
-                        <span class="about-institutions2"> Sri Chaitanya, Kakinada </span>
-                        <span class="abt-year">(2021-2023)</span>
-                        <span class="abt-grade">Inter Percentage : 91.8%</span>
-                    </div>
-                    <h4 class = "about-studies3">B.tech</h4>
-                    <div>
-                        <span class="about-institutions3"> Vellore Institute of Technology, Andhra Pradesh </span>
-                        <span class="abt-year1">(2023-2027)</span>
-                        <span class="abt-grade">Current CGPA : 8.58</span>
-                    </div>
-                </div>
-                <div id="college" class="a-content">
-                    <h3> More content coming up here soon..</h3>
-                </div>
-            </div>
-            </div>
-        </div>
-    </section>
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header"> My Skills</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Competitive Programming</h4>
+          <p>
+            Knight(1950+) on LeetCode, <br />
+            Pupil(1364) on Codeforces and <br />
+            3 star on CodeChef, <br />
+            Solved over 1500+ problems and a streak of 350+days.
 
-    <!-- Skills Section -->
-    <section id="skills">
-      <div class="sk-container">
-	
-        <!--   *******  Main Heading Starts  *******   -->
-      
-        <div class="sk-main-title">
-          <h1>My Skills</h1>
-          <p>The green bar represents my proficiency in that particular skill. 
-            Click on the logo to see my profile.
           </p>
         </div>
-      
-        <!--   *******  Main Heading Ends  *******   -->
-      
-        <div class="sk-row">
-          
-          <!--   *******  Left Section Starts here  *******   -->
-      
-          <section class="sk-col">
-            
-            <div class="sk-sub-title">
-              <h2>Competitive Programming</h2>
-            </div>
-      
-            <div class="sk-skills-container">
-              
-              <div class="sk-skill">
-                <div class="sk-subject">Leetcode</div>
-                  <span class="demolish">Knight with a 1900+ rating ,1000+ problems solved</span><img src="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png">
-                <div class="sk-progress-bar" value="90%">
-                  <div class="sk-progress-line" style="max-width: 90%"></div>
-                </div>
-              </div>
-      
-              <div class="sk-skill">
-                <div class="sk-subject">Codeforces </div>
-                  <span class="demolish">Pupil with a 1348+ rating ,300+ problems solved </span><img src=" https://cdn.iconscout.com/icon/free/png-256/free-code-forces-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-2-pack-logos-icons-3029920.png?f=webp&w=256">
-                <div class="sk-progress-bar" value="100%">
-                  <div class="sk-progress-line" style="max-width: 100%"></div>
-                </div>
-              </div>
-              <div class="sk-skill">
-                <div class="sk-subject">Codechef </div>
-                  <span class="demolish">4 Star with a rating of 1805.</span><img src = "https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg">
-                <div class="sk-progress-bar" value="70%">
-                  <div class="sk-progress-line" style="max-width: 70%"></div>
-                </div>
-              </div>
-      
-              <div class="sk-skill">
-                <div class="sk-subject">GFG </div>
-                  <span class="demolish">Institute rank of below 10..</span><img src="https://camo.githubusercontent.com/e24e26f4c09a379398e5b1442cc6a1824ac682dcc613005f36cec91a9c85a916/68747470733a2f2f7777772e6765656b73666f726765656b732e6f72672f77702d636f6e74656e742f75706c6f6164732f6766675f323030583230302e706e67">
-                <div class="sk-progress-bar" value="65%">
-                  <div class="sk-progress-line" style="max-width: 65%"></div>
-                </div>
-              </div>
-      
-            </div>
-          </section>
-      
-          <!--   ********  Left Section Ends Here  *******  -->
-      
-          <!--   ********  Right Section Starts Here  ********  -->
-      
-          <section class="sk-col">
-            
-            <div class="sk-sub-title">
-              <h2>Development Skills</h2>
-            </div>
-      
-            <div class="sk-skills-container">
-              
-              <div class="sk-skill">
-                <div class="sk-subject">Frontend(HTML+CSS(tailwind)+javascript)</div>
-                <div class="sk-progress-bar" value="82%">
-                  <div class="sk-progress-line" style="max-width: 82%"></div>
-                </div>
-              </div>
-      
-              <div class="sk-skill">
-                <div class="sk-subject">SQL</div>
-                <div class="sk-progress-bar" value="74%">
-                  <div class="sk-progress-line" style="max-width: 74%"></div>
-                </div>
-              </div>
-      
-              <div class="sk-skill">
-                <div class="sk-subject">mongoDB + Express + react + node (mern)</div>
-                <div class="sk-progress-bar" value="63%">
-                  <div class="sk-progress-line" style="max-width: 63%"></div>
-                </div>
-              </div>
-      
-              <div class="sk-skill">
-                <div class="sk-subject">Typescript + next.js</div>
-                <div class="sk-progress-bar" value="43%">
-                  <div class="sk-progress-line" style="max-width: 43%"></div>
-                </div>
-              </div>
-
-              <div class="sk-skill">
-                <div class="sk-subject">machine learning </div>
-                <div class="sk-progress-bar" value="74%">
-                  <div class="sk-progress-line" style="max-width: 74%"></div>
-                </div>
-              </div>
-
-              <div class="sk-skill">
-                <div class="sk-subject">Data Analytics</div>
-                <div class="sk-progress-bar" value="86%">
-                  <div class="sk-progress-line" style="max-width: 86%"></div>
-                </div>
-              </div>
-
-              <div class="sk-skill">
-                <div class="sk-subject">Data Science </div>
-                <div class="sk-progress-bar" value="60%">
-                  <div class="sk-progress-line" style="max-width: 60%"></div>
-                </div>
-              </div>
-      
-            </div>
-          </section>
-      
-          <!--   ********  Right Section Ends Here  ********   -->
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>Fullstack Development</h4>
+          <p>
+            Frontend : HTML,CSS,JS,React,Bootstrap,Tailwind CSS
+            Backend : Node.js,Express.js,MongoDB,DJango 
+            Database : MongoDB,MySQL 
+          </p>
         </div>
-
-
-        
-      
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>Data Science</h4>
+          <p>
+            Skilled in analyzing complex data using Python, Pandas, and NumPy.
+          Experienced in deriving insights from data and creating impactful visualizations using Matplotlib, Seaborn, and Power BI.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-fill"></i></span>
+          <h4>Machine learning</h4>
+          <p>
+            Proficient in building machine learning models with scikit-learn and TensorFlow.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-seo-line"></i></span>
+          <h4>Python</h4>
+          <p>
+            Extremely proficient in Python , and some of its famous libraries 
+            like Numpy,Pandas,YFinanace,Matplotlib,Seaborn,Tensorflow,Sci-kit Learn 
+            and many more!
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-circle-line"></i></span>
+          <h4>Non-tech Skills</h4>
+          <p>
+            Enthusiastic Team worker, who can communicate (Proficient in english;
+            Partially in German)
+            with a high team-management skillset and leadership qualities.
+            Time management is an add-on.
+          </p>
+        </div>
       </div>
     </section>
 
-    <section id="skills">
-      <div class="sk-container">
-	
-        <!--   *******  Main Heading Starts  *******   -->
-      
-        <div class="sk-main-title">
-          <h1>Non technical skills </h1>
-          <p> Includes my interest and hobbies that I've been building upon.</p>
+    <section class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">My Projects</h2>
+      <p class="section__description">
+        I have made projects in various sections like Fullstack, Data science , Machine Learning and Python.
+      </p>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="assets/project-1.jpg" alt="portfolio" />
         </div>
-
-        <div class="non-tech-skills">
-          <div class="round-boxes-1">
-            <div class="round-box-text-1">
-              <div class="anime-up-title">
-                German
-              </div>
-              <div class="anime-up-text">
-                Have a 300 days streak on duolingo with a strong proficiency in German.
-              </div>
-            </div>
-          </div>
-          <div class="round-boxes-2">
-            <div class="round-box-text-1">
-              <div class="anime-up-title">
-                Chess
-              </div>
-              <div class="anime-up-text">
-                Passionate chess player with a rating above 1000.
-              </div>
-            </div>
-          </div>
-          <div class="round-boxes-3">
-            <div class="round-box-text-1">
-              <div class="anime-up-title">
-                Psycology
-              </div>
-              <div class="anime-up-text">
-                Keen about Psycology, Learnt basics from Texas University Course.
-              </div>
-            </div>
-          </div>
-          <div class="round-boxes-4">
-            <div class="round-box-text-1">
-              <div class="anime-up-title">
-                Badminton
-              </div>
-              <div class="anime-up-text">
-                7 Years experience and a district level Badminton player.
-              </div>
-            </div>
-          </div>
+        <div class="portfolio__card">
+          <img src="assets/project-2.jpg" alt="portfolio" />
         </div>
-        <div class="what-name"> Personality skills for the industry</div>
-        <div class="this-name">Hover on the box to reveal the skill.</div>
-        <div class="non-tech-skills-round2">
-          <div class="round-boxes">
-            <div class="round-box-text">
-              <div class="anime-down-title">
-                Communication skills
-              </div>
-              <div class="anime-down-text">
-                Clearly conveys ideas and actively listens to others.
-              </div>
-            </div>
-          </div>
-          <div class="round-boxes">
-            <div class="round-box-text">
-              <div class="anime-down-title">
-                Team Collaboration
-              </div>
-              <div class="anime-down-text">
-                Works effectively within diverse groups and teams.
-              </div>
-            </div>
-          </div>
-          <div class="round-boxes">
-            <div class="round-box-text">
-              <div class="anime-down-title">
-                Leadership 
-              </div>
-              <div class="anime-down-text">
-                Guides and motivates teams toward shared goals.
-              </div>
-            </div>
-          </div>
-          <div class="round-boxes">
-            <div class="round-box-text">
-              <div class="anime-down-title">
-                Time Management
-              </div>
-              <div class="anime-down-text">
-                Prioritizes tasks to meet deadlines efficiently.
-              </div>
-            </div>
-          </div>
+        <div class="portfolio__card">
+          <img src="assets/project-3.jpg" alt="portfolio" />
         </div>
-      
+        <div class="portfolio__card">
+          <img src="assets/project-4.jpg" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-5.jpg" alt="portfolio" />
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-6.jpg" alt="portfolio" />
+        </div>
+      </div>
+      <div class="portfolio__banner">
+        <div class="portfolio__banner__card">
+          <span><i class="ri-macbook-line"></i></span>
+          <h4>20+ Repositories</h4>
+          <p>Github</p>
+        </div>
+        <div class="portfolio__banner__card">
+          <span><i class="ri-discuss-line"></i></span>
+          <h4>5000+ Followers</h4>
+          <p>LinkedIN</p>
+        </div>
+        <div class="portfolio__banner__card">
+          <span><i class="ri-heart-fill"></i></span>
+          <h4>Top rated in college</h4>
+          <p>Competitive Programming</p>
+        </div>
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services">
-      <div id="portfolio">
-        <div class="services-container">
-            <h1 class="services-sub-title">My Work</h1>
-            <p class="services-p"> List projects I have built over the years. Clicking on it, will re-direct you to its github link</p>
-            <div class="work-list">
-                <div class="work">
-                    <img src="https://img.freepik.com/premium-photo/composition-with-html-system-websites_23-2150866277.jpg?semt=ais_hybrid">
-                    <div class="layer">
-                        <h3>MERN STACK PROJECT</h3>
-                        <p>This section will be updated soon. The github link will be provided later since I am still working on it.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="https://images.wondershare.com/filmora/article-images/2021/best-practices-for-creating-phone-aspect-ratio-vertical-on-your-smartphone8.jpg">
-                    <div class="layer">
-                        <h3>Machine learning Projectt</h3>
-                        <p>Will be updated soon as I am still working on it.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="https://img.freepik.com/free-photo/expert-secures-high-tech-workplace_482257-95739.jpg?semt=ais_hybrid">
-                    <div class="layer">
-                        <h3>Data  Analytics</h3>
-                        <p>Will be updated soon as I am still working on it.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                  <img src="https://i.pinimg.com/originals/7f/68/16/7f6816de17d9e87c64bf0582c84fd579.jpg">
-                  <div class="layer">
-                      <h3>Machine learning Projectt</h3>
-                      <p>Will be updated soon as I am still working on it.</p>
-                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                  </div>
-                </div>
-                <div class="work">
-                  <img src="https://img.freepik.com/free-photo/face-recognition-personal-identification-collage_23-2150165614.jpg?semt=ais_hybrid">
-                  <div class="layer">
-                      <h3>MERN STACK PROJECT</h3>
-                      <p>This section will be updated soon. The github link will be provided later since I am still working on it.</p>
-                      <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                  </div>
-                </div>
-            </div>
-            <a href="#" class="anime-btn">See more</a>
-        </div>
-    </div>
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">S</div>
+      <h2 class="section__header">Let's Talk With Sathvika!</h2>
+      <p class="section__description">
+        An open invitation to connect, and exploring collaborative opportunities
+        on my personal portfolio website.
+      </p>
+      <div class="contact__socials">
+        <a href="https://x.com/satwika55"><i class="ri-twitter-fill"></i></a>
+        <a href="https://www.linkedin.com/in/satwika555/"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://instagram.com/satwika_55"><i class="ri-instagram-fill"></i></a>
+        <a href="https://github.com/satwika-55"><i class="ri-github-line"></i></a>
+        <a href="#"><i class="ri-pinterest-line"></i></a>
+      </div>
     </section>
+    <footer class="footer">
+      Made with Love.
+    </footer>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="contact-container">
-            <span class="big-circle"></span>
-            <img src="img/shape.png" class="square" alt="" />
-            <div class="left-contact-form">
-              <div class="contact-info">
-                <h3 class="left-contact-title">Let's get in touch</h3>
-                <p class="left-contact-text">
-                    Feel free to reach me out for any sort of queries. I am open to all kinds of work.
-                </p>
-      
-                <div class="info">
-                  <div class="left-contact-information">
-                    <img src="img/location.png" class="contact-icon" alt="" />
-                    <p>Amaravathi, Andhra Pradesh, India</p>
-                  </div>
-                  <div class="left-contact-information">
-                    <img src="img/email.png" class="contact-icon" alt="" />
-                    <p>satwikadsa@gmail.com</p>
-                  </div>
-                  <div class="left-contact-information">
-                    <img src="img/phone.png" class="contact-icon" alt="" />
-                    <p>+91 9866099974</p>
-                  </div>
-                </div>
-      
-                <div class="social-media">
-                  <p>Connect with me :</p>
-                  <div class="social-icons">
-                    <a href="#">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://x.com/satwika55">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/satwika555/">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="contact-form">
-                <span class="circle one"></span>
-                <span class="circle two"></span>
-      
-                <form action="index.html" autocomplete="off">
-                  <h3 class="left-contact-title">Contact us</h3>
-                  <div class="input-container">
-                    <input type="text" name="name" class="input" />
-                    <label for="">Username</label>
-                    <span>Username</span>
-                  </div>
-                  <div class="input-container">
-                    <input type="email" name="email" class="input" />
-                    <label for="">Email</label>
-                    <span>Email</span>
-                  </div>
-                  <div class="input-container">
-                    <input type="tel" name="phone" class="input" />
-                    <label for="">Phone</label>
-                    <span>Phone</span>
-                  </div>
-                  <div class="input-container textarea">
-                    <textarea name="message" class="input"></textarea>
-                    <label for="">Message</label>
-                    <span>Message</span>
-                  </div>
-                  <input type="submit" value="Send" class="contact-btn" />
-                </form>
-              </div>
-            </div>
-          </div>
-    </section>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({offset: 0});
-    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

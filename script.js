@@ -1,69 +1,66 @@
-function hamburg(){
-    const navbar = document.querySelector(".dropdown")
-    navbar.style.transform = "translateY(0px)"
-}
-function cancel(){
-    const navbar = document.querySelector(".dropdown")
-    navbar.style.transform = "translateY(-500px)"
-}
-// Typewriter Effect
-const texts = [
-    "Fullstack developer",
-    "Competitive Programmer",
-    "5 star Coder on Codechef",
-    "Pupil on Codeforces",
-    "Knight(2000+) Leetcode"
-]
-let speed  = 30;
-const textElements = document.querySelector(".typewriter-text");
-let textIndex = 0;
-let charcterIndex = 0;
-function typeWriter(){
-    if (charcterIndex < texts[textIndex].length){
-        textElements.innerHTML += texts[textIndex].charAt(charcterIndex);
-        charcterIndex++;
-        setTimeout(typeWriter, speed);
-    }
-    else{
-        setTimeout(eraseText, 1000)
-    }
-}
+const navLinks = document.getElementById("nav-links");
+const menuBtn = document.getElementById("menu-btn");
+const menuBtnIcon = menuBtn.querySelector("i");
 
-function showContent(id) {
-    document.querySelectorAll('.a-content').forEach(el => el.classList.remove('active'));
-    document.getElementById(id).classList.add('active');
-}
+menuBtn.addEventListener("click", (e) => {
+  navLinks.classList.toggle("open");
 
-function eraseText(){
-    if(textElements.innerHTML.length > 0){
-        textElements.innerHTML = textElements.innerHTML.slice(0,-1);
-        setTimeout(eraseText, 50)
-    }
-    else{
-        textIndex = (textIndex + 1) % texts.length;
-        charcterIndex = 0;
-        setTimeout(typeWriter, 500)
-    }
-}
-window.onload = typeWriter
-
-
-const inputs = document.querySelectorAll(".input");
-
-function focusFunc() {
-  let parent = this.parentNode;
-  parent.classList.add("focus");
-}
-
-function blurFunc() {
-  let parent = this.parentNode;
-  if (this.value == "") {
-    parent.classList.remove("focus");
-  }
-}
-
-inputs.forEach((input) => {
-  input.addEventListener("focus", focusFunc);
-  input.addEventListener("blur", blurFunc);
+  const isOpen = navLinks.classList.contains("open");
+  menuBtnIcon.setAttribute(
+    "class",
+    isOpen ? "ri-close-line" : "ri-menu-3-line"
+  );
 });
 
+navLinks.addEventListener("click", (e) => {
+  navLinks.classList.remove("open");
+  menuBtnIcon.setAttribute("class", "ri-menu-3-line");
+});
+
+const scrollRevealOption = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+};
+
+// header container
+ScrollReveal().reveal(".header__content h1", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".header__content .section__description", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".header__content .header__btn", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+// about container
+ScrollReveal().reveal(".about__content .section__header", {
+  ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".about__content .section__description", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".about__content .about__btn", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+// service container
+ScrollReveal().reveal(".service__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
+// portfolio container
+ScrollReveal().reveal(".portfolio__card", {
+  duration: 1000,
+  interval: 500,
+});
