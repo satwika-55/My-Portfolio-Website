@@ -3,7 +3,7 @@
 Welcome to my **personal portfolio website**! This project showcases my skills, projects, and experience in web development.  
 
 ## 🌟 Live Demo  
-🔗 **[Visit My Portfolio](https://satwika-55.github.io/My-Portfolio-Website/)**  
+🔗 **[Visit My Portfolio]()**  
 
 ## 📌 Features  
 - 🎨 **Modern & Responsive UI**  
@@ -13,8 +13,7 @@ Welcome to my **personal portfolio website**! This project showcases my skills, 
 - 🌙 **Dark Mode Support (if applicable)**  
 
 ## 🛠️ Tech Stack  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Frameworks:** React.js (if used)  
+- **Frontend:** HTML, CSS, JavaScript 
 - **Deployment:** GitHub Pages  
 
 ## 🚀 Deployment  
