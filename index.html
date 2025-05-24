@@ -1,247 +1,532 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title> Chitra Sathvika | Personal Portfolio </title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__bar">
-        <a href="#"><span class="logo nav__logo">S</span> Sathvika </a>
-        <div class="nav__menu__btn" id="menu-btn">
-          <i class="ri-menu-3-line"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get to know sathvika</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/satwika portfolio pic.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Chitra Sathvika.</span>
+                    A Web Developer.
+                </h1>
+                <p>
+                    I would describe myself in brief, as a passionate coder with great problem solving skills and keen interest in learning new technologies.
+                    I am a fullstack web developer, currently learning Machine Learning. 
+                    I would love to put my talent into work and help you with your projects.
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-      <ul class="nav__links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#service">Service</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact" class="btn">Contact</a></li>
-      </ul>
-      <a href="#contact" class="btn btn__large">Contact</a>
-    </nav>
-    <header class="section__container header__container" id="home">
-      <div class="header__image">
-        <img src="assets/header.jpg" alt="header" />
-      </div>
-      <div class="header__content">
-        <div>
-          <h1>Sathvika<br />FullStack Dev<br />Competitive Programmer</h1>
-        </div>
-        <p class="section__description">
-          I'm a dedicated Computer science ethusiast with a strong Passion for coding. 
-          Overtime, I have developed a rating of 1950(Knight) on leetcode, 
-          Pupil(1364) on Codeforces and 
-          3 star on CodeChef.
-          I am also a web developer with a keen interest in Fullstack development.
-        </p>
-        <div class="header__btn">
-          <button class="btn">Hire Me Now</button>
-        </div>
-      </div>
     </header>
-
-    <section class="section__container about__container" id="about">
-      <div class="about__image">
-        <img src="assets/bg.png" alt="bg" class="about__bg-1" />
-        <img src="assets/bg.png" alt="bg" class="about__bg-2" />
-        <img src="assets/about.jpg" alt="about" class="about__img" />
-      </div>
-      <div class="about__content">
-        <h2 class="section__header">Bit About Me</h2>
-        <p class="section__description">
-          After finishing my primary education from Little woods school,Andhra Pradesh,
-           I joined in VIT-AP university in 2023. I started coding to escape academics and 
-           little did I know that I would make a career in it. As a highly motivated induvidual,I have honed my skills in various aspects like WebDev, ML and Data Science, 
-           apart from being the best competitive Programmer of my college.
-        </p>
-        <div class="about__btn">
-          <button class="btn">Download CV</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="section__container service__container" id="service">
-      <h2 class="section__header"> My Skills</h2>
-      <div class="service__grid">
-        <div class="service__card">
-          <span><i class="ri-window-fill"></i></span>
-          <h4>Competitive Programming</h4>
-          <p>
-            Knight(1950+) on LeetCode, <br />
-            Pupil(1364) on Codeforces and <br />
-            3 star on CodeChef, <br />
-            Solved over 1500+ problems and a streak of 350+days.
-
-          </p>
-        </div>
-        <div class="service__card">
-          <span><i class="ri-store-line"></i></span>
-          <h4>Fullstack Development</h4>
-          <p>
-            Frontend : HTML,CSS,JS,React,Bootstrap,Tailwind CSS
-            Backend : Node.js,Express.js,MongoDB,DJango 
-            Database : MongoDB,MySQL 
-          </p>
-        </div>
-        <div class="service__card">
-          <span><i class="ri-smartphone-line"></i></span>
-          <h4>Data Science</h4>
-          <p>
-            Skilled in analyzing complex data using Python, Pandas, and NumPy.
-          Experienced in deriving insights from data and creating impactful visualizations using Matplotlib, Seaborn, and Power BI.
-          </p>
-        </div>
-        <div class="service__card">
-          <span><i class="ri-share-fill"></i></span>
-          <h4>Machine learning</h4>
-          <p>
-            Proficient in building machine learning models with scikit-learn and TensorFlow.
-          </p>
-        </div>
-        <div class="service__card">
-          <span><i class="ri-seo-line"></i></span>
-          <h4>Python</h4>
-          <p>
-            Extremely proficient in Python , and some of its famous libraries 
-            like Numpy,Pandas,YFinanace,Matplotlib,Seaborn,Tensorflow,Sci-kit Learn 
-            and many more!
-          </p>
-        </div>
-        <div class="service__card">
-          <span><i class="ri-share-circle-line"></i></span>
-          <h4>Non-tech Skills</h4>
-          <p>
-            Enthusiastic Team worker, who can communicate (Proficient in english;
-            Partially in German)
-            with a high team-management skillset and leadership qualities.
-            Time management is an add-on.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section__container portfolio__container" id="portfolio">
-      <h2 class="section__header">My Projects</h2>
-      <p class="section__description">
-        I have made projects in various sections like Fullstack, Data science , Machine Learning and Python.
-      </p>
-
-      <div class="portfolio__grid">
-        <div class="project-card">
-          <img src="assets/project-1.jpg" alt="Online Stock Predictor" />
-          <div class="overlay">
-            <h1>Online Stock Predictor</h1>
-            <p>​The Stock Trend Predictor is an application that forecasts future stock prices using Long Short-Term Memory (LSTM)
-               networks for time-series analysis. It features a user-friendly Streamlit interface,
-                and dynamic visualizations to aid users in making informed investment decisions.</p>
-            <a href="https://github.com/satwika-55/Stock-Trend-Predictor" target="_blank">View on GitHub</a>
-          </div>
-        </div>
-        
-        <div class="project-card">
-          <img src="assets/project-2.jpg" alt="Online Stock Predictor" />
-          <div class="overlay">
-            <h1>Applicant Tracking system </h1>
-            <p>
-              ​The Applicant Tracking System (ATS) is a project that utilizes Google's Gemini Pro API and Streamlit to streamline the 
-              recruitment process. It enables efficient tracking and management of job applications through an intuitive user interface.
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        I held my laptop as a coder in January 2023 and never looked back there after. I realized I belonged here,even before I made the best 
+                        out of myself. My passion peaked for this art of coding, after I achieved 5 Star rating and Expert on Codechef and Codeforces, respectively.
+                        However, I made my mind only after I built some real cool projects.
+                        Managing coding with academics was a tough task, but I know my priorities - Afterall, who's more happier than someone who's doing something
+                        they love the most ?
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">5000+</p>
+                            <p class="small-text">Followers <br /> LinkedIN</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Repositories <br /> Github</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1000+</p>
+                            <p class="small-text">DSA problems solved <br /> Leetcode</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1400+</p>
+                            <p class="small-text"> Specialist <br /> Codeforces </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">React.js,Tailwind (Frontend)</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">MongoDB,Firebase,SQL (Databases)</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript,Python,Typescript,Django</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Node.js, Express.js, Flask</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Machine Learning</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Data Structures and Algorithms</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2009 - 2021</p>
+                    <h5>Primary Schooling<span> Little Woods</span></h5>
+                    <p>
+                        Kakinada, Andhra Pradesh, India
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - 2023</p>
+                    <h5>Secondary schooling <span> Sri Chaitanya </span></h5>
+                    <p>
+                        Kakinada, Andhra Pradesh, India
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - 2027</p>
+                    <h5>B.Tech Student<span> Vellore Insitute of Technology</span></h5>
+                    <p>
+                        Amaravati, Andhra Pradesh, India
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 Jan - Present</p>
+                    <h5>Data structures and Algorithms <span> Leetcode & Codeforces</span></h5>
+                    <p>
+                        Solved over 1000+ problems on Leetcode, Maintained a streak of 500+ days and Specialist rated on Codeforces.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 Sep - Present</p>
+                    <h5>Fullstack developer<span>Tech stack : MERN </span></h5>
+                    <p>
+                        Contributed to many projects, won several hackathons and built some real cool projects.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2006 July - present</p>
+                    <h5>Human<span> Deep enthusiasm in exploring new things</span></h5>
+                    <p>
+                        Always eager to explore new things, and build something with a grup of people.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various utilising various technologies.
             </p>
-            <a href="https://github.com/satwika-55/Applicant-Tracking-System" target="_blank">View on GitHub</a>
-          </div>
-        </div>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Travel planner (AI integrated)</h3>
+                        <div class="icons">
+                            <a href="https://github.com/satwika-55/TravelPlanner" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Stock Prediction using ML </h3>
+                        <div class="icons">
+                            <a href="https://github.com/satwika-55/Stock-Trend-Predictor" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port3.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Expense Tracker </h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <h2> Practice Projects:</h2> -->
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port4.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Applicant Tracking System (ATS)</h3>
+                        <div class="icons">
+                            <a href="https://github.com/satwika-55/Applicant-Tracking-System" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port5.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Restaurant Management system (MERN stack)</h3>
+                        <div class="icons">
+                            <a href="https://github.com/satwika-55/Restaurant-Application" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Various ML projects </h3>
+                        <div class="icons">
+                            <a href="https://github.com/satwika-55/MachineLearning-DataScience" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Passion</span><span class="bg-text">My Life my world</span></h2>
+                </div>
+                <div class="blogs">
+                    <a href = "https://leetcode.com/u/satwika-55/">
+                    <div class="blog">
+                        <img src="img/blog-1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Leetcode 
+                            </h4>
+                            <p>
+                                Solved over 1000 problems, 500+ Days streak & 2000+ rated (top 0.07%)
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href = "https://codeforces.com/profile/satwika_55">
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Codeforces
+                            </h4>
+                            <p>
+                                Institute rank - 1 , Solved 500+ problems, 1400+ rated (Specialist)
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href = "https://www.codechef.com/users/satwika_555">
+                    <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Codechef
+                            </h4>
+                            <p>
+                                4 Star rated, and over 60+ contests participated consistently.
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href = "https://www.linkedin.com/in/satwika555/">
+                    <div class="blog">
+                        <img src="img/blog5.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                linkedin
+                            </h4>
+                            <p>
+                                Over 5000+ followers, and one of the top content creator in VIT.
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href = "https://github.com/satwika-55">
+                    <div class="blog">
+                        <img src="img/blog4.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Github
+                            </h4>
+                            <p>
+                                Over 30+ repositories, and regular contribution on github platform.
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                    <a href = "#">
+                    <div class="blog">
+                        <img src="img/blog6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Duolingo
+                            </h4>
+                            <p>
+                                Maintained a streak of 300+ days in learning German language.
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+                            <br />
+                            <span>Feel free to contact me</span>
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Vijayawada, Andhra Pradesh, India
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: satwikadsa@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: Vellore Insitute of Technology</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +91 9866099974</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: English,Telugu,Hindi,German</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.linkedin.com/in/satwika555/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://x.com/satwika55" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/satwika-55" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.instagram.com/satwika_55/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <div class="project-card">
-          <img src="assets/project-3.jpg" alt="Online Stock Predictor" />
-          <div class="overlay">
-            <h1>Online Stock Predictor</h1>
-            <p>​The Stock Trend Predictor is an application that forecasts future stock prices using Long Short-Term Memory (LSTM)
-               networks for time-series analysis. It features a user-friendly Streamlit interface,
-                and dynamic visualizations to aid users in making informed investment decisions.</p>
-            <a href="https://github.com/satwika-55/Stock-Trend-Predictor" target="_blank">View on GitHub</a>
-          </div>
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
         </div>
-
-        <div class="project-card">
-          <img src="assets/project-4.jpg" alt="Online Stock Predictor" />
-          <div class="overlay">
-            <h1>Online Stock Predictor</h1>
-            <p>​The Stock Trend Predictor is an application that forecasts future stock prices using Long Short-Term Memory (LSTM)
-               networks for time-series analysis. It features a user-friendly Streamlit interface,
-                and dynamic visualizations to aid users in making informed investment decisions.</p>
-            <a href="https://github.com/satwika-55/Stock-Trend-Predictor" target="_blank">View on GitHub</a>
-          </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
         </div>
-
-        <div class="project-card">
-          <img src="assets/project-5.jpg" alt="Online Stock Predictor" />
-          <div class="overlay">
-            <h1>Online Stock Predictor</h1>
-            <p>​The Stock Trend Predictor is an application that forecasts future stock prices using Long Short-Term Memory (LSTM)
-               networks for time-series analysis. It features a user-friendly Streamlit interface,
-                and dynamic visualizations to aid users in making informed investment decisions.</p>
-            <a href="https://github.com/satwika-55/Stock-Trend-Predictor" target="_blank">View on GitHub</a>
-          </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
         </div>
-
-        <div class="project-card">
-          <img src="assets/project-6.jpg" alt="Online Stock Predictor" />
-          <div class="overlay">
-            <h1>Online Stock Predictor</h1>
-            <p>​The Stock Trend Predictor is an application that forecasts future stock prices using Long Short-Term Memory (LSTM)
-               networks for time-series analysis. It features a user-friendly Streamlit interface,
-                and dynamic visualizations to aid users in making informed investment decisions.</p>
-            <a href="https://github.com/satwika-55/Stock-Trend-Predictor" target="_blank">View on GitHub</a>
-          </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
         </div>
-
-      </div>
-      <div class="portfolio__banner">
-        <div class="portfolio__banner__card">
-          <span><i class="ri-macbook-line"></i></span>
-          <h4>20+ Repositories</h4>
-          <p>Github</p>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
         </div>
-        <div class="portfolio__banner__card">
-          <span><i class="ri-discuss-line"></i></span>
-          <h4>5000+ Followers</h4>
-          <p>LinkedIN</p>
-        </div>
-        <div class="portfolio__banner__card">
-          <span><i class="ri-heart-fill"></i></span>
-          <h4>Top rated in college</h4>
-          <p>Competitive Programming</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section__container contact__container" id="contact">
-      <div class="logo">S</div>
-      <h2 class="section__header">Let's Talk With Sathvika!</h2>
-      <p class="section__description">
-        An open invitation to connect, and exploring collaborative opportunities
-        on my personal portfolio website.
-      </p>
-      <div class="contact__socials">
-        <a href="https://x.com/satwika55"><i class="ri-twitter-fill"></i></a>
-        <a href="https://www.linkedin.com/in/satwika555/"><i class="ri-linkedin-fill"></i></a>
-        <a href="https://instagram.com/satwika_55"><i class="ri-instagram-fill"></i></a>
-        <a href="https://github.com/satwika-55"><i class="ri-github-line"></i></a>
-        <a href="#"><i class="ri-pinterest-line"></i></a>
-      </div>
-    </section>
-    <footer class="footer">
-      Made with Love.
-    </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="script.js"></script>
-  </body>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
 </html>
